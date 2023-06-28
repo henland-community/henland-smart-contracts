@@ -426,7 +426,7 @@ class Representatives(sp.Contract):
 
 
 sp.add_compilation_target("representatives", Representatives(
-    metadata=sp.utils.metadata_of_url("ipfs://QmSPr2fiDfnTXq7DemP9Eeh1dhrUwp4QFDDQYUhZKCqnMQ"),
+    metadata=sp.utils.metadata_of_url("ipfs://bafkreihua7t2s4ter2d6t26kyazv47ct66r7lsqmhykwb2imljdu6xsjlm"),
     representatives={
         sp.address("tz1YgDUQV2eXm8pUWNz3S5aWP86iFzNp4jnD"): "desperate tezos bakers",
         sp.address("tz1c5of2FGiz5C5xpKieGAt2abJaz7VwmU9q"): "poor artists community",

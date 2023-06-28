@@ -204,6 +204,6 @@ class CoreTeamVote(sp.Contract):
 
 # Add a compilation target
 sp.add_compilation_target("coreTeamVote", CoreTeamVote(
-    metadata=sp.utils.metadata_of_url("ipfs://QmVGVvVQBEgKA8meTq8QsRvTx4o9iKA1q3Nof7XdL3PcMB"),
+    metadata=sp.utils.metadata_of_url("ipfs://bafkreih4rbrtbojufp2ouahdpvbrm6jzfx275d4yzncfgddxho2dbwqozq"),
     core_team_multisig=sp.address("KT1J9FYz29RBQi1oGLw8uXyACrzXzV1dHuvb"),
     minimum_votes=sp.nat(5)))

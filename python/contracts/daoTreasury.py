@@ -211,5 +211,5 @@ class DAOTreasury(sp.Contract):
 
 
 sp.add_compilation_target("daoTreasury", DAOTreasury(
-    metadata=sp.utils.metadata_of_url("ipfs://QmYQZ7WUrVGQjfsGQR2DmkJrw3jPhVb1SLLG4GW8Xfww79"),
+    metadata=sp.utils.metadata_of_url("ipfs://bafkreiar3fctkvfimkj33yb5m6fo74eo5fr356wb775rb742yqsddzrjo4"),
     dao=sp.address("tz1Z2VHBKLmSLobfm5jqYEnJfVe1nKd1j66g")))

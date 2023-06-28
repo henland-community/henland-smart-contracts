@@ -306,7 +306,7 @@ class DAOTokenDrop(sp.Contract):
 
 sp.add_compilation_target("daoTokenDrop", DAOTokenDrop(
     administrator=sp.address("tz1Z2VHBKLmSLobfm5jqYEnJfVe1nKd1j66g"),
-    metadata=sp.utils.metadata_of_url("ipfs://QmNhC5Uucwh8TRfzL8xxo2y7RbJVkShuVr8dXCfoFoVCZ5"),
+    metadata=sp.utils.metadata_of_url("ipfs://bafkreibsbxwhd7kusndrr7dv5er5xqiqc2zvuxw5qtd5ftsrozshr4brnq"),
     token=sp.address("KT1Bdh3NcpSnTy9kPGQLzBr9u51KHfPYqCnN"),
     treasury=sp.address("tz1Z2VHBKLmSLobfm5jqYEnJfVe1nKd1j66g"),
     merkle_root=sp.bytes("0x00"),

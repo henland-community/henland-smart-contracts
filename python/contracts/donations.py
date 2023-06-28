@@ -262,5 +262,5 @@ class Donations(sp.Contract):
 
 sp.add_compilation_target("donations", Donations(
     administrator=sp.address("tz1Z2VHBKLmSLobfm5jqYEnJfVe1nKd1j66g"),
-    metadata=sp.utils.metadata_of_url("ipfs://bafkreicrnzzdn3v6fgvvtmpjr2op3x6qn2cgitktgxwxp4ezqmj2hqu3ry"),
+    metadata=sp.utils.metadata_of_url("ipfs://bafkreigw4oac6d2dzh2yeoywjzaegk5jtlti3ami3o3eoxo6cf7tifmoti"),
     oXTZ=sp.address("KT1TjnZYs5CGLbmV6yuW169P8Pnr9BiVwwjz")))

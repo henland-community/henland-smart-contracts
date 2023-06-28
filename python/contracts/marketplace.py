@@ -477,6 +477,6 @@ class Marketplace(sp.Contract):
 
 sp.add_compilation_target("marketplace", Marketplace(
     administrator=sp.address("tz1Z2VHBKLmSLobfm5jqYEnJfVe1nKd1j66g"),
-    metadata=sp.utils.metadata_of_url("ipfs://henlandxyz"),
+    metadata=sp.utils.metadata_of_url("ipfs://bafkreibixnjxxozxkny47jupjghp7dtx7jbevvhsv5pqnemdhlamfgdbwa"),
     fa2=sp.address("KT1M9CMEtsXm3QxA7FmMU2Qh7xzsuGXVbcDr"),
     fee=sp.nat(25)))

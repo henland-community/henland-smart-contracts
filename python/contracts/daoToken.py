@@ -544,7 +544,7 @@ if "tzip16_error_inline" in environ.get("HENLAND_SC_PARAMS", "").split(":"):
 
 sp.add_compilation_target("daoToken", DAOToken(
     administrator=sp.address("tz1Z2VHBKLmSLobfm5jqYEnJfVe1nKd1j66g"),
-    metadata=sp.utils.metadata_of_url("ipfs://QmbmLBSisoZYXr7F7nFBeZMYUmf2Vnd4QKP77FyHPTdWMX"),
-    token_metadata=sp.utils.bytes_of_string("ipfs://QmXkMe3tPtZ7jz3swpBXbubAM8UCcmSsDcrbuZNMeXHFf8"),
+    metadata=sp.utils.metadata_of_url("ipfs://bafkreibtvkqf4qnlnszeitvg6j2wdxg6dsebf7k4edmzw7htka6uti6iju"),
+    token_metadata=sp.utils.bytes_of_string("ipfs://bafkreiei3fps3ynneiniqwu7e5wqvcubrkiqrxpsngk5exaa3rqthweoza"),
     supply=8000000000000,
     max_share=400000000000))

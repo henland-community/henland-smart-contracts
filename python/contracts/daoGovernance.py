@@ -925,7 +925,7 @@ if 'tzip16_error_inline' in environ.get('HENLAND_SC_PARAMS','').split(':'):
             ).inject_into_smartpy(sp).add_base_metadata(DAOGovernance)
 
 sp.add_compilation_target("dao", DAOGovernance(
-    metadata=sp.utils.metadata_of_url("ipfs://henlandxyz"),
+    metadata=sp.utils.metadata_of_url("ipfs://bafkreigv7wws5qzwpbkayrzyzzkc4idkltqy6hexxfixgnzbuqwohkfm7y"),
     administrator=sp.address("KT1QmSmQ8Mj8JHNKKQmepFqQZy7kDWQ1ekaa"),
     treasury=sp.address("KT1QmSmQ8Mj8JHNKKQmepFqQZy7kDWQ1ekbb"),
     token=sp.address("KT1QmSmQ8Mj8JHNKKQmepFqQZy7kDWQ1ekcc"),

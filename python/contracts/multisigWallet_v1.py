@@ -714,7 +714,7 @@ class MultisigWallet(sp.Contract):
 
 # Add a compilation target initialized to a single user account
 sp.add_compilation_target("multisig", MultisigWallet(
-    metadata=sp.utils.metadata_of_url("ipfs://QmW9G5GXx6CtPUJFK9nKJNxdedehwqPVcqtPq5Tk6XMGEr"),
+    metadata=sp.utils.metadata_of_url("ipfs://bafkreigzula64v4vq7yuvcx5qkxjt6zbggxhra5jlwqr5bvsei5frtmt4q"),
     users=sp.set([sp.address("tz1Z2VHBKLmSLobfm5jqYEnJfVe1nKd1j66g")]),
     minimum_votes=sp.nat(1),
     expiration_time=sp.nat(7)))

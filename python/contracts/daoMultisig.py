@@ -805,7 +805,7 @@ class DaoMultisig(sp.Contract):
 
 # Add a compilation target initialized to a single user account
 sp.add_compilation_target("daoMultisig", DaoMultisig(
-    metadata=sp.utils.metadata_of_url("ipfs://QmNUgGA8rykZsbXh9N14m9JUvjKHp8hAda45YssxZJtGQf"),
+    metadata=sp.utils.metadata_of_url("ipfs://bafkreieu2yqtv2onvt6nyeob7tema3yhetfwwwe66v2yh4bpab6y47jgjy"),
     proposed_users=sp.set([
         sp.address("tz1auzguranCBAHCf6s8Nw27gDroPeopXDbJ"),
         sp.address("tz1STaURypfCdS7FRkK5csHhi8eqdSs8CcPt"),

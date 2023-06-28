@@ -75,5 +75,5 @@ class OpenLetter(sp.Contract):
 
 # Add a compilation target
 sp.add_compilation_target("openLetter", OpenLetter(
-    metadata=sp.utils.metadata_of_url("ipfs://henlandxyz"),
-    letter=sp.string("ipfs://henlandxyz")))
+    metadata=sp.utils.metadata_of_url("ipfs://bafkreievpodrss7nxirrubuokr2j2hwabjcbqboz5qakc4mkeiw5gwn2dy"),
+    letter=sp.string("ipfs://bafkreievpodrss7nxirrubuokr2j2hwabjcbqboz5qakc4mkeiw5gwn2dy")))

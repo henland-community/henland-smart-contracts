@@ -172,4 +172,4 @@ class TezosPolls(sp.Contract):
 
 # Add a compilation target
 sp.add_compilation_target("tezosPolls", TezosPolls(
-    metadata=sp.utils.metadata_of_url("ipfs://QmdTcVEy8afc2paFRvvQdoK6hn8CDmEmKCsFeW3GV3aCJi")))
+    metadata=sp.utils.metadata_of_url("ipfs://bafkreiew3wbuk534ymj7lymplltzhcws6aqvqlcehkml2wffvg7qinc4bq")))
