@@ -1,0 +1,13 @@
+{
+    "name": "Tezos for Iran donations contract",
+    "description": "This contract distributes funds for the Tezos for Iran donation campaing",
+    "version": "1.0.0",
+    "license": {
+        "name": "MIT",
+        "details": "The MIT License"
+    },
+    "source": {
+        "tools": ["SmartPy 0.14.0"],
+        "location": "https://github.com/henland-community/henland-smart-contracts/blob/main/python/contracts/donations.py"
+    }
+}

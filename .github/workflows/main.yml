@@ -1,0 +1,19 @@
+name: Compile and run unit tests
+on:
+  push:
+    paths:
+    - '.github/**'
+    - '**.py'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          architecture: 'x64'
+      - run: printf '%s\n' 'y' 'y' | bash <(curl -s https://legacy.smartpy.io/cli/install.sh)
+      - run: ./compile.sh
+      - run: ./test.sh
